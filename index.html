@@ -15,49 +15,52 @@
   <body>
     <!-- Creating the header -->
     <header>
-      <div class="container">
+      <div class="container Header-Container">
         <div class="row">
 
-        <!-- Adding my name as a header on the page -->
+          <!-- Adding my name as a header on the page -->
 
-          <div class="col-md-4 col-sm-6 col-8">
-            <h1>Matthew Simon</h1>
-        </div>
+                <h1 class="col-md-4 Header-Name">Matthew Simon</h1>
 
-        <!-- Adding the navigation bar-->
+          <!-- Adding the navigation bar-->
 
-        <nav class="navbar navbar-expand-lg col-md-4">
-
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-item nav-link active" href="index.html">About <span class="sr-only">(current)</span></a>
-              <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-              <a class="nav-item nav-link" href="contact.html">Contact</a>
+          <nav class="navbar navbar-expand-lg col-md-3 ml-auto Header-Nav">
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav nav-class">
+                <a class="nav-item nav-link active border border-top-0 border-left-0 border-bottom-0" href="index.html">About <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link border border-top-0 border-left-0 border-bottom-0" href="portfolio.html">Portfolio</a>
+                <a class="nav-item nav-link" href="contact.html">Contact</a>
+              </div>
             </div>
-          </div>
-      </nav>
+          </nav>
 
-
+      </div>
     </div>
   </header>
 
 <!-- Adding a Row to contain the content on the page for the about me section and the contact me section -->
-    <div class="container">
+    <div class="container Body-Container mt-md-3 mt-3">
+
       <div class="row">
-        <div class="col-md-9 col-sm-12 col-12">
+        <div class="col-md-8 col-sm-12 col-12 Body-About card mb-md-2">
 
           <!-- Adding a row for the about me section of the page -->
-
-          <div class="row">
-            <h1>About Me</h1>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <h1>About Me</h1>
+              </div>
+            </div>
           </div>
 
           <!-- Adding the section for the body of about me -->
 
+        <div class="container">
           <div class="row">
-
+            <div class="col-md-12 col-sm-12">
             <div class="media">
-              <img class="align-self-center mr-3" src="images/IMG_0013.jpg" alt="Profile image" height="300px" width="220px">
+              <img class="align-self-center mr-3 img-fluid" src="images/IMG_0013.jpg" alt="Profile image" height="300px" width="220px">
+
               <div class="media-body">
                 <p>
                   Hello! This is the first time that I have ever created a static web page from HTML and CSS and I am very excited to start this class. During the day, I am a product manager at Cvent where we work with products across IOS, Android, and the web. I hope to take what I learn in this class and apply it to my career.
@@ -67,82 +70,68 @@
                   I grew up in Scotch Plains, New Jersey and graduated from the University of Maryland in 2013 with a degree in Information Systems and Finance. Since graduating, I have had a position with the Super Bowl Host Committee and my current role at Cvent where I began as a product analyst and now hold the Product Lead title.
                 </p>
               </div>
+
             </div>
-
-            <!-- <img src="images/IMG_0013.jpg" alt="Profile Image" height="300px" width="220px">
-
-            <p>
-              Hello! This is the first time that I have ever created a static web page from HTML and CSS and I am very excited to start this class. During the day, I am a product manager at Cvent where we work with products across IOS, Android, and the web. I hope to take what I learn in this class and apply it to my career.
-            </p>
-
-            <p>
-              I grew up in Scotch Plains, New Jersey and graduated from the University of Maryland in 2013 with a degree in Information Systems and Finance. Since graduating, I have had a position with the Super Bowl Host Committee and my current role at Cvent where I began as a product analyst and now hold the Product Lead title.
-            </p> -->
 
           </div>
 
         </div>
+      </div>
+    </div>
 
-        <div class="col-md-3 col-sm-12 col-12">
+
+
+        <div class="col-md-3 col-sm-12 col-12 Connect card ml-md-5">
 
           <!-- Creating a row for connecting with me -->
-
-          <div class="row">
-            <h2>Connect with Me</h2>
-          </div>
+            <div class="row mx-auto">
+              <div class="col-md-12 col-sm-12 col-12">
+                <h3>Connect with Me</h3>
+              </div>
+            </div>
 
           <!-- This section will hold all the connect with me options -->
-          <div class="row">
+        <div class="container icons-container mx-auto">
+          <div class="row mx-auto">
 
             <!-- Creating the appropriate div for each icon o they take up 1/3 the container-->
 
             <!-- Github -->
-
-            <div class="col-md-4 col-sm-4 col-4">
-
-              <img src="images/github.png" alt="Github" width="64px" height="64px">
-
+            <div class="col-md-4 col-sm-4 connect-icons connect-github">
+              <img src="images/github.png" class="rounded float-left" alt="Github" width="64px" height="64px">
             </div>
-
             <!-- LinkedIn -->
-
-            <div class="col-md-4 col-sm-4 col-4">
-
-              <img src="images/linkedin.png" alt="Github" width="64px" height="64px">
-
+            <div class="col-md-4 col-sm-4 connect-icons connect-linkedin">
+              <img src="images/linkedin.png" class="rounded float-left" alt="Github" width="64px" height="64px">
             </div>
-
             <!-- Stackoverflow -->
+            <div class="col-md-4 col-sm-4 connect-icons connect-stackoverflow">
+              <img src="images/stackoverflow.png" class="rounded float-left" alt="Github" width="64px" height="64px">
+            </div>
 
-            <div class="col-md-4 col-sm-4 col-4">
-
-              <img src="images/stackoverflow.png" alt="Github" width="64px" height="64px">
+<!-- Closing the icons row -->
 
             </div>
 
-          </div>
-
-          <div class="row">
+ <!-- Closing the icons container -->
 
           </div>
 
+  <!-- Closing the connect card -->
 
         </div>
 
-      </div>
+<!-- Div to close the body content not including the header and footer -->
+        </div>
 
-    </div>
+      </div>
 
     <!-- End of the body container -->
 
     <!-- Creating the footer -->
 
-    <footer>
-      <div class="container">
-        <div class="row">
-          <p>Copyright &copy; 2017 Matthew Simon </p>
-        </div>
-      </div>
+    <footer class="fixed-bottom mt-5">
+            <p class="text-center">Copyright &copy; 2017 Matthew Simon </p>
     </footer>
 
 

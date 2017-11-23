@@ -1,0 +1,118 @@
+html body {
+  min-height: 400px;
+  margin-bottom: 150px;
+}
+
+body {
+  padding:inherit;
+}
+
+.Header-Container {
+  height: 100px;
+  padding-left: 15px;
+  border-bottom-style: solid;
+  border-width: thin;
+  border-color: grey;
+}
+
+.Header-Name {
+  background-color: #4aaaa5;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  color: white;
+}
+
+.Header-Nav {
+  margin-right: 15px;
+}
+
+a {
+  color: grey;
+  padding-right: 10px;
+}
+
+}
+.Body-Container {
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+
+.Connect-aside h2 {
+  text-align: center;
+}
+
+footer {
+  border-top-style: solid;
+  border-width: thick;
+  border-color: #4aaaa5;
+  height: 100px;
+  background-color: grey;
+  line-height: 100px;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+}
+
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.Connect {
+  border-style: solid;
+  border-width: thin;
+  border-color: grey;
+  height: 150px;
+  padding: 1rem;
+
+}
+
+.Connect h2 {
+  padding: 15px;
+  display: inline;
+}
+
+.Body-About {
+  border-style: solid;
+  border-width: thin;
+  border-color: grey;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.profile-image{
+  display: inline-block;
+}
+
+.btn {
+  border-color: #4aaaa5;
+  background-color: #4aaaa5;
+}
+
+.Portfolio-Row {
+  margin-top: 20px;
+}
+
+.Portfolio-Card {
+  padding: 0px;
+}
+
+.card-title {
+  margin-top: 140px;
+  background-color: #4aaaa5;
+  width: 100%;
+}
+
+h3 {
+  text-align: center;
+}
+
+.Connect-Header {
+  width:100%;
+}
+
+.connect-icons {
+  padding-left: 0px;
+}

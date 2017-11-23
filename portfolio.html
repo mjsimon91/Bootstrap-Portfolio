@@ -15,69 +15,48 @@
   <body>
     <!-- Creating the header -->
     <header>
-      <div class="container">
+      <div class="container Header-Container">
         <div class="row">
 
-  <!-- Adding my name as a header on the page -->
-            <h1>Matthew Simon</h1>
+          <!-- Adding my name as a header on the page -->
 
-        <!-- Adding the navigation bar-->
-            <nav class="navbar navbar-expand-lg col-md-8">
-              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                  <a class="nav-item nav-link active" href="index.html">About <span class="sr-only">(current)</span></a>
-                  <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-                  <a class="nav-item nav-link" href="contact.html">Contact</a>
-                </div>
+                <h1 class="col-md-4 Header-Name">Matthew Simon</h1>
+
+          <!-- Adding the navigation bar-->
+
+          <nav class="navbar navbar-expand-lg col-md-3 ml-auto Header-Nav">
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav nav-class">
+                <a class="nav-item nav-link active border border-top-0 border-left-0 border-bottom-0" href="index.html">About <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link border border-top-0 border-left-0 border-bottom-0" href="portfolio.html">Portfolio</a>
+                <a class="nav-item nav-link" href="contact.html">Contact</a>
               </div>
-            </nav>
+            </div>
+          </nav>
 
-        </div>
       </div>
-    </header>
+    </div>
+  </header>
 
 <!-- Adding a Row to contain the content on the page for the about me section and the contact me section -->
-    <div class="container">
+    <div class="container Body-Container mt-md-3 mt-3">
+
       <div class="row">
-        <div class="col-md-9 col-sm-12 col-12">
+        <div class="col-md-8 col-sm-12 col-12 Body-About card">
 
-          <!-- Adding a row for my portfolio on the page -->
-
+          <!-- Adding a row for the about me section of the page -->
+          <!-- Adding a row for the about me section of the page -->
+        <div class="container">
           <div class="row">
-            <h1>Portfolio</h1>
+            <div class="col-md-12">
+              <h1>Portfolio</h1>
+            </div>
           </div>
-
-          <!-- Adding the section for the body of Portfolio-->
-          <!-- Using the Bootstrap cards component for this  -->
-
-          <!-- Row 1 -->
-
-          <div class="row">
-
-            <div class="col-md-6">
-
-              <div class="card bg-dark text-white">
-                <img class="card-img" src="images/Abstract.jpeg" alt="Card image" height="200">
-                <div class="card-img-overlay">
-                  <h1 class="card-title">OnArrival</h1>
-                </div>
-              </div>
-            </div>
-
-              <div class="col-md-6">
-
-              <div class="card bg-dark text-white">
-                <img class="card-img" src="images/Abstract.jpeg" alt="Card image" height="200">
-                <div class="card-img-overlay">
-                  <h1 class="card-title">OnArrival</h1>
-                </div>
-              </div>
-
-            </div>
-
         </div>
 
-          <!-- Row 2 -->
+  <!-- Adding a Row to contain the content on the page for the about me section and the contact me section -->
+
+        <!-- Row 1 -->
 
         <div class="row">
 
@@ -85,7 +64,7 @@
 
             <div class="card bg-dark text-white">
               <img class="card-img" src="images/Abstract.jpeg" alt="Card image" height="200">
-              <div class="card-img-overlay">
+              <div class="card-img-overlay Portfolio-Card">
                 <h1 class="card-title">OnArrival</h1>
               </div>
             </div>
@@ -95,91 +74,109 @@
 
             <div class="card bg-dark text-white">
               <img class="card-img" src="images/Abstract.jpeg" alt="Card image" height="200">
-              <div class="card-img-overlay">
+              <div class="card-img-overlay Portfolio-Card">
                 <h1 class="card-title">OnArrival</h1>
               </div>
             </div>
 
           </div>
 
+      </div>
+
+        <!-- Row 2 -->
+
+      <div class="row Portfolio-Row">
+
+        <div class="col-md-6">
+
+          <div class="card bg-dark text-white">
+            <img class="card-img" src="images/Abstract.jpeg" alt="Card image" height="200">
+            <div class="card-img-overlay Portfolio-Card">
+              <h1 class="card-title">OnArrival</h1>
+            </div>
+          </div>
         </div>
-
-          <!-- Row 3 -->
-
-        <div class="row">
 
           <div class="col-md-6">
 
-            <div class="card bg-dark text-white">
-              <img class="card-img" src="images/Abstract.jpeg" alt="Card image" height="200">
-              <div class="card-img-overlay">
-                <h1 class="card-title">OnArrival</h1>
-              </div>
+          <div class="card bg-dark text-white">
+            <img class="card-img" src="images/Abstract.jpeg" alt="Card image" height="200">
+            <div class="card-img-overlay Portfolio-Card">
+              <h1 class="card-title">OnArrival</h1>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+        <!-- Row 3 -->
+
+      <div class="row Portfolio-Row">
+
+        <div class="col-md-6">
+
+          <div class="card bg-dark text-white">
+            <img class="card-img" src="images/Abstract.jpeg" alt="Card image" height="200">
+            <div class="card-img-overlay Portfolio-Card">
+              <h1 class="card-title">OnArrival</h1>
             </div>
           </div>
         </div>
       </div>
-        <div class="col-md-3 col-sm-12 col-12">
+    </div>
 
-          <!-- Creating a row for connecting with me -->
 
-          <div class="row">
-            <h2>Connect with Me</h2>
+
+    <div class="col-md-3 col-sm-12 col-12 Connect card ml-md-5">
+
+      <!-- Creating a row for connecting with me -->
+        <div class="row mx-auto">
+          <div class="col-md-12 col-sm-12 col-12">
+            <h3>Connect with Me</h3>
           </div>
+        </div>
 
-          <!-- This section will hold all the connect with me options -->
-          <div class="row">
+      <!-- This section will hold all the connect with me options -->
+    <div class="container icons-container mx-auto">
+      <div class="row mx-auto">
 
-            <!-- Creating the appropriate div for each icon o they take up 1/3 the container-->
+        <!-- Creating the appropriate div for each icon o they take up 1/3 the container-->
 
-            <!-- Github -->
+        <!-- Github -->
+        <div class="col-md-4 col-sm-4 connect-icons connect-github">
+          <img src="images/github.png" class="rounded float-left" alt="Github" width="64px" height="64px">
+        </div>
+        <!-- LinkedIn -->
+        <div class="col-md-4 col-sm-4 connect-icons connect-linkedin">
+          <img src="images/linkedin.png" class="rounded float-left" alt="Github" width="64px" height="64px">
+        </div>
+        <!-- Stackoverflow -->
+        <div class="col-md-4 col-sm-4 connect-icons connect-stackoverflow">
+          <img src="images/stackoverflow.png" class="rounded float-left" alt="Github" width="64px" height="64px">
+        </div>
 
-            <div class="col-md-4 col-sm-4 col-4">
-
-              <img src="images/github.png" alt="Github" width="64px" height="64px">
-
-            </div>
-
-            <!-- LinkedIn -->
-
-            <div class="col-md-4 col-sm-4 col-4">
-
-              <img src="images/linkedin.png" alt="Github" width="64px" height="64px">
-
-            </div>
-
-            <!-- Stackoverflow -->
-
-            <div class="col-md-4 col-sm-4 col-4">
-
-              <img src="images/stackoverflow.png" alt="Github" width="64px" height="64px">
-
-            </div>
-
-          </div>
-
-          <div class="row">
-
-          </div>
-
+<!-- Closing the icons row -->
 
         </div>
+
+<!-- Closing the icons container -->
+
+      </div>
+
+<!-- Closing the connect card -->
+
+    </div>
 
       </div>
 
     </div>
-  </div>
-
     <!-- End of the body container -->
 
     <!-- Creating the footer -->
 
-    <footer>
-      <div class="container">
-        <div class="row">
-          <p>Copyright &copy; 2017 Matthew Simon </p>
-        </div>
-      </div>
+    <footer class="fixed-bottom mt-5">
+            <p class="text-center">Copyright &copy; 2017 Matthew Simon </p>
     </footer>
 
 
