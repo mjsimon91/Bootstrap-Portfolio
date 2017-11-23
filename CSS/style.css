@@ -15,6 +15,16 @@ body {
   border-color: grey;
 }
 
+.Header-Title {
+  border-bottom-style: solid;
+  border-width: thin;
+  border-color: grey;
+}
+
+.body-content{
+  margin-top: 10px;
+}
+
 .Header-Name {
   background-color: #4aaaa5;
   height: 100px;
