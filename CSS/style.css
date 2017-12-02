@@ -1,3 +1,7 @@
+body {
+  background-image: url(../images/background.png);
+}
+
 html body {
   min-height: 400px;
   margin-bottom: 150px;
@@ -76,6 +80,7 @@ footer {
   border-color: grey;
   height: 150px;
   padding: 1rem;
+  min-width: 283px;
 
 }
 
